@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    let userNumber = +prompt('Enter Tree levels');
+    let str = '';
+
+    for (let i = 0; i < userNumber; i++ ) {
+
+        // Ставим пробелы перед звездочками
+        // С каждой итерацией уменьшаем кол-во пробелов
+        for (let space = 0; space <= userNumber - i; space++) {
+            str += '-';
+        }
+
+        // ставим нужное количество звездочек в конец строки
+        // С каждой итерацией увеличиваем кол-во звездочек
+        // Выполняем одну итерацию из-за условия <=
+        for(let star = 0; star <= i * 2; star++) {
+            str += '*'
+        }
+
+        // Разбиваем строку переносом строки
+        str += '\n';
+    }
+
+    console.log(str)
+
+
+
+
+
+
+</script>
+</body>
+</html>

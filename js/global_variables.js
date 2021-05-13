@@ -1,13 +1,19 @@
 // У функции есть доступ к внешним переменным
 
-let userName = 'Вася';
-
-function showMessage() {
-    let message = 'Привет, ' + userName;
-    alert(message);
-}
-
-showMessage();
+// let userName = 'Вася';
+//
+// function showMessage() {
+//     let message = 'Привет, ' + userName;
+//
+//     return {
+//         message
+//     }
+//     // alert(message);
+// }
+//
+// const userGreet  = showMessage();
+//
+// console.log(userGreet.message);
 
 
 

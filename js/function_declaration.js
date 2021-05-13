@@ -2,11 +2,11 @@
 // ...тело...
 // }
 
+// function showMessage() {
+//     alert( 'Всем привет!' );
+// }
+//
+// showMessage();
+// showMessage();
 
 
-function showMessage() {
-    alert( 'Всем привет!' );
-}
-
-showMessage();
-showMessage();

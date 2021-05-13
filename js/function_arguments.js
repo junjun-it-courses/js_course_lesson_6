@@ -1,9 +1,9 @@
-function showMessage(from, text) { // аргументы: from, text
-    alert(from + ': ' + text);
-}
-
-showMessage('Аня', 'Привет!'); // Аня: Привет! (*)
-showMessage('Аня', "Как дела?"); // Аня: Как дела? (**)
+// function showMessage(from, text) {  // аргументы: from, text
+//     alert(from + ': ' + text);
+// }
+//
+// showMessage('Аня', 'Привет!'); // Аня: Привет! (*)
+// showMessage('Аня', "Как дела?"); // Аня: Как дела? (**)
 
 
 // изменение значиения аргумента в функции
@@ -15,11 +15,22 @@ showMessage('Аня', "Как дела?"); // Аня: Как дела? (**)
 //     alert( from + ': ' + text );
 // }
 //
-// let from = "Аня";
+// let userName = "Аня";
 //
-// showMessage(from, "Привет"); // *Аня*: Привет
-//
-// // значение "from" осталось прежним,
-// // функция изменила значение локальной переменной
-//
+// showMessage(userName, "Привет"); // *Аня*: Привет
+
+// значение "from" осталось прежним,
+// функция изменила значение локальной переменной
+
 // alert( from ); // Аня
+
+
+// function funcName(iterations, funcArg2) {
+//
+//     for(let i = 0; i < iterations; i++) {
+//         console.log('iteration ' + i, funcArg2 )
+//     }
+//
+// }
+//
+// funcName(5, 'Hello JS');
